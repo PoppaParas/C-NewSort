@@ -1,6 +1,7 @@
 # Visual Studio Code cache
 .vscode/
 
+
 # Visual Studio cache
 .vs/
 
@@ -11,3 +12,5 @@
 # User-specific files
 *.user
 *.suo
+*.vs
+*.vcxproj
