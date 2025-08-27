@@ -199,18 +199,7 @@ int main() {
 	for (double Duration : Durations) {
 		Total += Duration;
 	}
-	Average = Total / Durations.size(); # Visual Studio Code cache
-        .vscode /
-
-        .vs /
-
-
-        [Bb]in /
-        [Oo]bj /
-
-
-        * .user
-        * .suo
+	Average = Total / Durations.size();
 	cout << ArrayAmount << " arrays generated. Time taken: " << GetPassed("StartThread",ClockFormats["Nanoseconds"]) << " seconds" << endl;
 	cout << "Avg time taken: " << Average << " seconds" << endl;
 	return 0;
